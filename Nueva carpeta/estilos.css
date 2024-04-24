@@ -1,0 +1,127 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+} 
+
+nav a:hover{
+    color:aliceblue;
+
+}
+
+nav{
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 40px;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{ 
+    height: 50px;
+}
+
+input {
+    display: flex;
+    background-image: url(imga/icon.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border-color: transparent;
+    background-color: whitesmoke;
+    padding: 9px 20px 9px 22px;
+    background-position: left;
+    border-radius: 30px;
+    background-position-x: 5%;
+
+}
+
+.linko {
+    align-items: center;
+    display: flex;
+}
+
+.pix{
+    align-items: center;
+    margin-right: 30px;
+    display: flex;
+}
+
+.ofer{
+    display: flex;
+    margin-top: 10px;
+    text-align: left;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: whitesmoke;
+    height: 40px;
+}
+
+.ali{
+    font-family: sans-serif;
+    font-size: small;
+    margin-left: 47%;
+
+}
+
+.oferdos{
+    background-color: whitesmoke;
+    text-align: center;
+    height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.absol{
+   background-color: white;
+   height: 80px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+
+}
+
+.slider{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    
+    animation: slide 15s infinite alternate ease-in-out;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+}
+
+.slider li{
+    list-style: none;
+    width: 100%;
+}
+
+@keyframes slide {
+    0%{margin-left: 0%;}
+    20%{margin-left: 0%;}
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+}
